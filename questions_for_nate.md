@@ -1,2 +1,3 @@
 # Questions
-- what is real time?
+- ~~what is real time?~~
+- 

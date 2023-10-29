@@ -6,6 +6,12 @@ Team members:
 - Mohammad Alkharaz: Point of Contact
 - Thomas Kidd: Repo Oversight
 
+## Budget
+Total Budget: $250
+Current Spending: $58.85
+Amount Left: $191.15
+
+
 ## Due dates
 - Sprint 1 progress report - Monday Oct. 30 11:59pm
 - Sprint 2 progress report - Monday Nov.13 11:59pm

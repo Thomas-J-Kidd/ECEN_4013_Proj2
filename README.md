@@ -26,7 +26,6 @@ Team members:
     - <del> https://learn.sparkfun.com/tutorials/logic-levels/all</del>
 - <del>SD card library or reader. SD card communication based on different hex numbers</del>
     - <del>https://docs.micropython.org/en/latest/library/machine.SDCard.html</del>
-- GPS information modeling 
 
 ## Project Description
 
@@ -56,8 +55,3 @@ have a budget of $250 for parts that cannot be found in the part store. The team
 produces a working design of the smallest form factor (case included) will be awarded a
 grade ‘bonus’ of 5 points on the project report grade.
 
-
-    - <del> U-blox GNSS modules: https://www.u-blox.com/en/product/neo-f10n-module </del>
-    - NMEA GPS communication standard
-- IMU 
-    - <del> https://cdn.sparkfun.com/assets/7/f/e/c/d/DS-000189-ICM-20948-v1.3.pdf </del>

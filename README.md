@@ -41,12 +41,20 @@ produces a working design of the smallest form factor (case included) will be aw
 grade ‘bonus’ of 5 points on the project report grade.
 
 ## Important considerations and TODOs
-1) Logic Levels (3.3V or 5V) potentially use a level shifter
-    - https://learn.sparkfun.com/tutorials/logic-levels/all
-2) SD card library or reader. SD card communication based on different hex numbers
-    - https://docs.micropython.org/en/latest/library/machine.SDCard.html
-3) GPS information modeling 
-    - U-blox GNSS modules: https://www.u-blox.com/en/product/neo-f10n-module
+**Current TODOs**
+1) Implement M10 GPS module
+2) Implement LoRa Module. Details in Software/CircuitPython
+3) Implement SD Card Reader. Details in Software/CircuitPython
+4) Implement GUI
+5) Create specs for PCB, Housing, and power usage
+
+**Past TODOs Done or mitigated**
+- <del>Logic Levels (3.3V or 5V) potentially use a level shifter</del>
+    - <del> https://learn.sparkfun.com/tutorials/logic-levels/all</del>
+- <del>SD card library or reader. SD card communication based on different hex numbers</del>
+    - <del>https://docs.micropython.org/en/latest/library/machine.SDCard.html</del>
+- GPS information modeling 
+    - <del> U-blox GNSS modules: https://www.u-blox.com/en/product/neo-f10n-module </del>
     - NMEA GPS communication standard
-4) IMU 
-    - https://cdn.sparkfun.com/assets/7/f/e/c/d/DS-000189-ICM-20948-v1.3.pdf
+- IMU 
+    - <del> https://cdn.sparkfun.com/assets/7/f/e/c/d/DS-000189-ICM-20948-v1.3.pdf </del>

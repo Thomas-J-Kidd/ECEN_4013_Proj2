@@ -7,9 +7,9 @@ Team members:
 - Thomas Kidd: Repo Oversight
 
 ## Budget
-Total Budget: $250
-Current Spending: $58.85
-Amount Left: $191.15
+- Total Budget: $250
+- Current Spending: $58.85
+- Amount Left: $191.15
 
 
 ## Due dates

@@ -43,6 +43,7 @@ grade ‘bonus’ of 5 points on the project report grade.
 ## Important considerations and TODOs
 **Current TODOs**
 1) Implement M10 GPS module
+    - NMEA GPS communication standard
 2) Implement LoRa Module. Details in Software/CircuitPython
 3) Implement SD Card Reader. Details in Software/CircuitPython
 4) Implement GUI

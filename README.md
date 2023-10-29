@@ -1,16 +1,32 @@
 # ECEN 4013 Fall 2023 Project 2 GPS IMU data sensor
 
 Team members:
-- Christopher Hale
-- Jasmine Taplin
-- Mohammad Alkharaz
-- Thomas Kidd
+- Christopher Hale: Scribe
+- Jasmine Taplin: Scrum Master
+- Mohammad Alkharaz: Point of Contact
+- Thomas Kidd: Repo Oversight
 
 ## Due dates
 - Sprint 1 progress report - Monday Oct. 30 11:59pm
 - Sprint 2 progress report - Monday Nov.13 11:59pm
 - Final Demo - Week of Dec. 4th
 - Final Report - Friday May 15th 11:59pm (last Friday of finals week)
+
+## Important considerations and TODOs
+**Current TODOs**
+1) Implement M10 GPS module
+    - NMEA GPS communication standard
+2) Implement LoRa Module. Details in Software/CircuitPython
+3) Implement SD Card Reader. Details in Software/CircuitPython
+4) Implement GUI
+5) Create specs for PCB, Housing, and power usage
+
+**Past TODOs Done or mitigated**
+- <del>Logic Levels (3.3V or 5V) potentially use a level shifter</del>
+    - <del> https://learn.sparkfun.com/tutorials/logic-levels/all</del>
+- <del>SD card library or reader. SD card communication based on different hex numbers</del>
+    - <del>https://docs.micropython.org/en/latest/library/machine.SDCard.html</del>
+- GPS information modeling 
 
 ## Project Description
 
@@ -40,21 +56,7 @@ have a budget of $250 for parts that cannot be found in the part store. The team
 produces a working design of the smallest form factor (case included) will be awarded a
 grade ‘bonus’ of 5 points on the project report grade.
 
-## Important considerations and TODOs
-**Current TODOs**
-1) Implement M10 GPS module
-    - NMEA GPS communication standard
-2) Implement LoRa Module. Details in Software/CircuitPython
-3) Implement SD Card Reader. Details in Software/CircuitPython
-4) Implement GUI
-5) Create specs for PCB, Housing, and power usage
 
-**Past TODOs Done or mitigated**
-- <del>Logic Levels (3.3V or 5V) potentially use a level shifter</del>
-    - <del> https://learn.sparkfun.com/tutorials/logic-levels/all</del>
-- <del>SD card library or reader. SD card communication based on different hex numbers</del>
-    - <del>https://docs.micropython.org/en/latest/library/machine.SDCard.html</del>
-- GPS information modeling 
     - <del> U-blox GNSS modules: https://www.u-blox.com/en/product/neo-f10n-module </del>
     - NMEA GPS communication standard
 - IMU 

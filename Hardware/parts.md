@@ -8,6 +8,7 @@
 
 ## Bluetooth Transmitter
 - do they have any?
-  *https://www.mouser.com/ProductDetail/Adafruit/3078?qs=AGnqjqvSJvKRStF%2FKXnSuQ%3D%3D
+-https://www.mouser.com/ProductDetail/Adafruit/3078?qs=AGnqjqvSJvKRStF%2FKXnSuQ%3D%3D
+
 ## Baramoter
 - do they have any?

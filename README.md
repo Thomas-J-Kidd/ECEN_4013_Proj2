@@ -61,3 +61,12 @@ have a budget of $250 for parts that cannot be found in the part store. The team
 produces a working design of the smallest form factor (case included) will be awarded a
 grade ‘bonus’ of 5 points on the project report grade.
 
+Radio options (from class):
+Bluetooth module: HC-05/HC=06
+Serial radios: RFM69 (SPI), SX...
+
+PySimpleGUI
+    *Needs python and pip
+        -pip: https://bootstrap.pypa.io/get-pip.py
+        
+

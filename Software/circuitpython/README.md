@@ -15,20 +15,17 @@ CircuitPython needs to be flashed onto the pi pico.
 8) place any dependencies or libraries that your devices require. For example the LSM6DS33 neews busio, register, and the LSM6D libraries in the lib folder. 
 9) These libraries can be found in the `adafruit-circuitpython-bundle-8.x-mpy-20231029/lib/` folder. 
 10) Write your main.py code using Thonny, a IDE for writing micropython and CircuitPython. Hit the green play button to flash and execute the code on the pico
+11) Upload code.py to have a auto start function of the code upon powerup. 
 
 
 ## Further Developement
 
 The next stages of developement are to:
 1) test further sensors
-    - add GPS
-    - add baramoter
-    - add temperature sensor (if we want)
-2) create a serial communication through the USB
-3) store the data to an SD card. We picked an adafruit CircuitPython compatible part:  MicroSD card breakout board+
-4) send data over LoRa or Bluetooth. Current Adafruit CircuitPython compatible part: RFM69HCW and RFM9X LoRa Packet Radio Breakouts
-5) Create a GUI for the USB communication
-    - make a simple one using TKinter and python
-    - Look into QT and importing Figma designs into QT Design studio (free student trial)
 
+## Lib
 
+The library folder containts all of the libraries necessary to run our code.py program
+
+## Other Folder
+Each folder that is called IMU or GPS for example tests the specific code for that module. 
